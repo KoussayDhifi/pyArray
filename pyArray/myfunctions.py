@@ -20,9 +20,4 @@ def create_array(type,length):
 	return T
 
 
-M = create_array('float',5)
-for i in range(5):
-	M[i] = str(input(f"M[{i}] = "))
-
-print(M)
 
