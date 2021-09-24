@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyArray/__init__.py
+pyArray/myfunctions.py
+pyArray.egg-info/PKG-INFO
+pyArray.egg-info/SOURCES.txt
+pyArray.egg-info/dependency_links.txt
+pyArray.egg-info/top_level.txt

@@ -21,3 +21,27 @@ def create_array(type,length):
 
 
 
+def create_multi_array (type,l,c):
+	T=[]
+	for i in range(l):
+		t=[]
+		for j in range(c):
+			if type == 'int':
+				t.append(random.randint(0,999))
+			elif type == 'str':
+				letters = list(string.ascii_letters)
+				t.append(letters[random.randint(0,51)])
+			elif type == 'bool':
+				boolea = [True,False]
+				t.append(boolea[random.randint(0,1)])
+			elif type == 'float':
+				t.append(random.uniform(0,90))
+			else:
+				print("Please add a valid datatype between a '' ")
+				return 0
+		T.append(t)
+
+
+	return T
+
+
